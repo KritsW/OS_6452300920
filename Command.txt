@@ -1,0 +1,5 @@
+1.grep -E 'KRITSANAPON' email.txt
+2.grep -oE '6452300920@stu.pim.ac.th' email.txt // Show Only Me
+2.grep -oE '[0-9]{10}@stu.pim.ac.th' email.txt // Show All
+3.grep -ioE '6452300920' email.txt // Show Only Me
+3.grep -oE '\b[0-9]+' email.txt // Show All
